@@ -1,0 +1,23 @@
+{
+    "name": "Simone RAG Application",
+    "version": "1.0.0",
+    "slug": "simone_ai",
+    "description": "This is a simone AI addon",
+    "startup": "services",
+    "boot": "auto",
+    "arch": [
+      "armv7",
+      "armhf",
+      "aarch64",
+      "amd64",
+      "i386"
+    ],
+    "options": {},
+    "schema": {},
+    "ports": {
+        "8787/tcp": 8787
+    },
+    "image": "local/simone_ai",
+    "host_network": false
+  }
+  
